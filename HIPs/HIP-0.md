@@ -58,7 +58,7 @@ Your HIP may require resources from the Devcon(nect) team, so make sure to add t
 
 ## Team
 
-The hypercerts team is the final decision maker on the status of a HIP (Accepted - Postponed - Not Implemented). Our team will work together to provide a technical and operational review of all HIP drafts submitted. They are responsible for communicating with the HIP authors and relaying information between teams, and accompany projects through their production-implementation phase to ensure Accepted HIPs are realised.
+The hypercerts team is the final decision maker on the status of a HIP (Accepted - Postponed - Not Implemented - Changes Requested). Our team will work together to provide a technical and operational review of all HIP drafts submitted. They are responsible for communicating with the HIP authors and relaying information between teams, and accompany projects through their production-implementation phase to ensure Accepted HIPs are realised.
 
 ## Workflow (From Idea to Implementation)
 
@@ -68,7 +68,7 @@ You, the HIP author, just came up with a great idea💡 for hypercerts.
 
 #### 2. Community Feedback
 
-Before writing a formal HIP Draft in Github, take the time to vet your idea. Open a discussion thread in the [Discord forum] ( LINK TO FORUM ) and make sure to clearly state your idea to allow the community to provide feedback. Share your idea with the community to gather more feedback. This is done to ensure you don't waste your time writing a HIP that either won't get enough traction, is not feasible, or is a duplicate.
+Before writing a formal HIP Draft in Github, take the time to vet your idea. Open a discussion thread in the [discussion forum](https://github.com/hypercerts-org/HIPs/discussions) and make sure to clearly state your idea to allow the community to provide feedback. Share your idea with the community to gather more feedback. This is done to ensure you don't waste your time writing a HIP that either won't get enough traction, is not feasible, or is a duplicate.
 
 #### 3. Process
 
@@ -95,7 +95,7 @@ Before writing a formal HIP Draft in Github, take the time to vet your idea. Ope
 
 ## HIP Format
 
-Your first PR should be a first draft of the final HIP. It must meet the formatting criteria (largely, correct metadata in the header). An editor will manually assign it a number before merging it. Make sure you include a discussions-to header with the URL to the [ Discord forum ]( LINK TO DISCORD FORUM )
+Your first PR should be a first draft of the final HIP. It must meet the formatting criteria (largely, correct metadata in the header). An editor will manually assign it a number before merging it. Make sure you include a discussions-to header with the URL to the [discussion forum](https://github.com/hypercerts-org/HIPs/discussions)
 
 If your HIP requires images, the image files should be included in a subdirectory of the assets folder for that HIP as follows: assets/hip-N (where N is to be replaced with the HIP number). When linking to an image in the HIP, use relative links such as ../assets/hip-1/image.png.
 
@@ -108,12 +108,9 @@ All HIP should be written in markdown format. Please use the template below:
 HIP: (Number of HIP)
 Title: (Think of a catchy, descriptive, short title)
 Status: Draft
-Themes: (See themes above)
-Tags: (Please select all that apply: Programming, ...)
-Instances: (See instances above)
 Authors: (Emails of primary contacts)
 Resources Required: (dev cycles, content contribution, etc.)
-Discussion: (URL of where HIP gets discussed, preferably on Discord forum)
+Discussion: (URL of where HIP gets discussed, preferably on [discussion forum](https://github.com/hypercerts-org/HIPs/discussions))
 ---
 
 -----Summary of Proposal-----
@@ -121,7 +118,7 @@ __Simple Summary__
 __50 word summary__
 
 -----Abstract-----
-__200 word description of the proposal.__
+__ < 500 word description of the proposal.__
 
 -----Motivation & Rationale-----
 __Below are some useful prompts__

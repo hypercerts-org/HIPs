@@ -1,0 +1,47 @@
+title: "[HIP-XXX] Title of the HIP"
+labels: ["HIP", "DRAFT"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a draft of a HIP. It is a living document and may be updated at any time. Please refer to the [HIP workflow](https://github.com/hypercerts-org/HIPs/blob/main/HIPs/HIP-0.md#workflow-from-idea-to-implementation) for more information on the HIP process.
+  - type: textares
+    id: summary
+    attributes:
+      value: |
+        Provide a simple, 50 word description of the proposed change.
+  - type: textares
+    id: abstract
+    attributes:
+      value: |
+        Provide a short (<500 word) description of the proposed change.
+  - type: textares
+    id: motivation-and-rationale
+    attributes:
+      value: |
+        Provide a detailed motivation for the proposed change. Below are some questions to consider:
+        - How would this support the hypercert ecosystem?
+        - How would this improve impact funding flows?
+  - type: textares
+    id: implementation
+    attributes:
+      value: |
+        Describe the technical implementation of the proposed change. Below are some questions to consider:
+        - What is the scope of the change?
+        - Has any part of this proposal been implemented at protocols or communities? If so, please describe how it went.
+        - What are the technical requirements for this proposal to be implemented?
+        - Can you provide visuals of what the outcome of this proposal would look like?
+  - type: textares
+    id: operation-requirements-and-ownership
+    attributes:
+      value: |
+        Describe the operational requirements and ownership of the proposed change. Below are some questions to consider:
+        - What are the operational requirements for this proposal to be implemented?
+        - Who will be responsible for the implementation and maintenance of this proposal?
+        - What actions are required to implement the proposal for hypercerts?
+        - Who will be responsible for the proposal to be implemented effectively? (i.e. working on Day 0)
+        - What other projects could this proposal be integrated with? (Bonus points for collaboration across teams :))
+  - type: textares
+    id: links-and-additional-information
+
+
