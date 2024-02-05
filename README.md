@@ -6,7 +6,7 @@ While we are excited to have a more formal process to hear ideas from the commun
 
 ## Contributing
 
-1. Post your idea in the [Discord HIP Forum] (LINK TO DISCORD FORUM), publicize it, discuss it there, and gather feedback.
+1. Post your idea in the [discussion forum](https://github.com/hypercerts-org/HIPs/discussions), publicize it, discuss it there, and gather feedback.
 2. Once you have feedback and some interest in the idea, proceed with the below steps.
 3. Review [HIP-0](HIPs/HIP-0.md). If you have questions or need help with Github, please just ask us — we can help you!
 4. Fork the repository by clicking "Fork" at the top right.
