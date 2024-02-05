@@ -8,40 +8,47 @@ body:
   - type: textarea
     id: summary
     attributes:
-      value: |
+      label: Summary
+      description: |
         Provide a simple, 50 word description of the proposed change.
-  - type: textarea 
+  - type: textarea
     id: abstract
     attributes:
-      value: |
+      label: Abstract
+      description: |
         Provide a short (<500 word) description of the proposed change.
-  - type: textarea 
+  - type: textarea
     id: motivation-and-rationale
     attributes:
-      value: |
+      label: Motivation and rationale
+      description: |
         Provide a detailed motivation for the proposed change. Below are some questions to consider:
         - How would this support the hypercert ecosystem?
         - How would this improve impact funding flows?
-  - type: textarea 
+  - type: textarea
     id: implementation
     attributes:
-      value: |
+      label: Implementation
+      description: |
         Describe the technical implementation of the proposed change. Below are some questions to consider:
         - What is the scope of the change?
         - Has any part of this proposal been implemented at protocols or communities? If so, please describe how it went.
         - What are the technical requirements for this proposal to be implemented?
         - Can you provide visuals of what the outcome of this proposal would look like?
-  - type: textarea 
+  - type: textarea
     id: operation-requirements-and-ownership
     attributes:
-      value: |
+      label: Operation requirements and ownership
+      description: |
         Describe the operational requirements and ownership of the proposed change. Below are some questions to consider:
         - What are the operational requirements for this proposal to be implemented?
         - Who will be responsible for the implementation and maintenance of this proposal?
         - What actions are required to implement the proposal for hypercerts?
         - Who will be responsible for the proposal to be implemented effectively? (i.e. working on Day 0)
         - What other projects could this proposal be integrated with? (Bonus points for collaboration across teams :))
-  - type: textarea 
+  - type: textarea
     id: links-and-additional-information
-
-
+    attributes:
+      label: Links and additional information
+      description: |
+        Provide any links to additional information that may be helpful for understanding the proposal. Below are some questions to consider:
